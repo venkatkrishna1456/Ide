@@ -1,0 +1,117 @@
+STEP 1:Intro
+	
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+	
+	namespace myApp
+	{
+	class Program
+	{
+	static void Main()
+	{
+	Console.WriteLine("Hello World!");
+	}
+	}
+	}
+	
+	
+	
+	
+	
+	STEP 2:Strings
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+	
+	namespace myApp
+	{
+	class Program
+	{
+	static void Main()
+	{
+	Console.WriteLine("Hello pavan!");
+	}
+	}
+	}
+	
+	
+	
+	STEP3: Variables
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+	
+	namespace myApp
+	{
+	class Program
+	{
+	static void Main()
+	{
+	var name = "Pavan";
+	Console.WriteLine("Hello "+name + "!");
+	}
+	}
+	}
+	
+	
+	
+	STEP 4: String Interpolation
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+	
+	namespace myApp
+	{
+	class Program
+	{
+	static void Main()
+	{
+	var name = "pavan";
+	Console.WriteLine($"Hello {name}!");
+	}
+	}
+	}
+	
+	
+	
+	
+	STEP 5: Methods
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+	
+	namespace myApp
+	{
+	class Program
+	{
+	static void Main()
+	{
+	var name = "pavan";
+	Console.WriteLine($"Hello {name.ToUpper()}!");
+	}
+	}
+	}
+	
+	
+	
+	
+	STEP 6: Collections
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+	
+	namespace myApp
+	{
+	class Program
+	{
+	static void Main()
+	{
+	var names = new List<string> { "pavan", "Felipe", "Emillia" };
+	foreach (var name in names)
+	{
+	Console.WriteLine($"Hello {name.ToUpper()}!");
+	}
+	}
+	}
+	}
